@@ -11,9 +11,14 @@ namespace AngularJS_For_ASP.NET_Developers.Controllers
         //
         // GET: /Login/
 
-        public ActionResult Index()
+        public ActionResult LoginPage()
         {
             return View();
+        }
+
+        public ActionResult Login()
+        {
+            return null;
         }
 
     }
